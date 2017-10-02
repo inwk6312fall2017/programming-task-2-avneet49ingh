@@ -11,4 +11,7 @@ class crime():
            b = row.get('RUCR_EXT_D')
            print('RUCR', count , b)
   
-        elif  
+        elif row.get('RUCR') == 1420:
+           count1 = count1 + 1
+           c = row.get('RUCR_EXT_D')
+           print('RUCR' , count1 , c) 
