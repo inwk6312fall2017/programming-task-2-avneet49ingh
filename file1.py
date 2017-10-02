@@ -15,3 +15,11 @@ class crime():
            count1 = count1 + 1
            c = row.get('RUCR_EXT_D')
            print('RUCR' , count1 , c) 
+
+        elif 
+
+
+
+
+c = crime()
+c.func()
