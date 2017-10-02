@@ -6,4 +6,9 @@ class crime():
     for line in reader:
       t = line[7]
       a = t.getdata
-        if  
+        if row.get('RUCR') == 1430:
+           count = count + 1
+           b = row.get('RUCR_EXT_D')
+           print('RUCR', count , b)
+  
+        elif  
